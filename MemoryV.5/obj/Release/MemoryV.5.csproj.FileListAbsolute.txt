@@ -1,0 +1,11 @@
+C:\Users\Niklas\documents\visual studio 2013\Projects\MemoryV.5\MemoryV.5\bin\Release\MemoryV.5.exe.config
+C:\Users\Niklas\documents\visual studio 2013\Projects\MemoryV.5\MemoryV.5\obj\Release\OptionsWindow.baml
+C:\Users\Niklas\documents\visual studio 2013\Projects\MemoryV.5\MemoryV.5\obj\Release\ScoreControl.baml
+C:\Users\Niklas\documents\visual studio 2013\Projects\MemoryV.5\MemoryV.5\obj\Release\MainWindow.g.cs
+C:\Users\Niklas\documents\visual studio 2013\Projects\MemoryV.5\MemoryV.5\obj\Release\OptionsWindow.g.cs
+C:\Users\Niklas\documents\visual studio 2013\Projects\MemoryV.5\MemoryV.5\obj\Release\ScoreControl.g.cs
+C:\Users\Niklas\documents\visual studio 2013\Projects\MemoryV.5\MemoryV.5\obj\Release\App.g.cs
+C:\Users\Niklas\documents\visual studio 2013\Projects\MemoryV.5\MemoryV.5\obj\Release\MemoryV.5_Content.g.cs
+C:\Users\Niklas\documents\visual studio 2013\Projects\MemoryV.5\MemoryV.5\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Niklas\documents\visual studio 2013\Projects\MemoryV.5\MemoryV.5\obj\Release\MemoryV.5_MarkupCompile.cache
+C:\Users\Niklas\documents\visual studio 2013\Projects\MemoryV.5\MemoryV.5\obj\Release\MemoryV.5_MarkupCompile.lref

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D266333F-1F40-479C-AB82-52CA5F6F9091}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MemoryV._5</RootNamespace>
+    <AssemblyName>MemoryV.5</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="AgainstComputerGameController.cs" />
+    <Compile Include="ScoreControl.xaml.cs">
+      <DependentUpon>ScoreControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SinglePlayerGameController.cs" />
+    <Compile Include="SoundController.cs" />
+    <Compile Include="SoundType.cs" />
+    <Compile Include="TwoPlayerGameController.cs" />
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Card.cs" />
+    <Compile Include="GameCommands.cs" />
+    <Compile Include="GameController.cs" />
+    <Compile Include="GameOptions.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="OptionsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ScoreControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="OptionsWindow.xaml.cs">
+      <DependentUpon>OptionsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Player.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\monster\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\misc\R1.png" />
+    <Resource Include="images\misc\R10.png" />
+    <Resource Include="images\misc\R11.png" />
+    <Resource Include="images\misc\R12.png" />
+    <Resource Include="images\misc\R13.png" />
+    <Resource Include="images\misc\R14.png" />
+    <Resource Include="images\misc\R15.png" />
+    <Resource Include="images\misc\R16.png" />
+    <Resource Include="images\misc\R17.png" />
+    <Resource Include="images\misc\R18.png" />
+    <Resource Include="images\misc\R2.png" />
+    <Resource Include="images\misc\R3.png" />
+    <Resource Include="images\misc\R4.png" />
+    <Resource Include="images\misc\R5.png" />
+    <Resource Include="images\misc\R6.png" />
+    <Resource Include="images\misc\R7.png" />
+    <Resource Include="images\misc\R8.png" />
+    <Resource Include="images\misc\R9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\background.jpg" />
+    <Resource Include="images\book6.png" />
+    <Resource Include="images\star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\wood-texture-14.png" />
+    <Resource Include="images\cardbackground.png" />
+    <Resource Include="images\beer-icon.png" />
+    <Resource Include="images\kapsyler\R1.png" />
+    <Resource Include="images\kapsyler\R10.png" />
+    <Resource Include="images\kapsyler\R11.png" />
+    <Resource Include="images\kapsyler\R12.png" />
+    <Resource Include="images\kapsyler\R13.png" />
+    <Resource Include="images\kapsyler\R14.png" />
+    <Resource Include="images\kapsyler\R15.png" />
+    <Resource Include="images\kapsyler\R16.png" />
+    <Resource Include="images\kapsyler\R17.png" />
+    <Resource Include="images\kapsyler\R18.png" />
+    <Resource Include="images\kapsyler\R2.png" />
+    <Resource Include="images\kapsyler\R3.png" />
+    <Resource Include="images\kapsyler\R4.png" />
+    <Resource Include="images\kapsyler\R5.png" />
+    <Resource Include="images\kapsyler\R6.png" />
+    <Resource Include="images\kapsyler\R7.png" />
+    <Resource Include="images\kapsyler\R8.png" />
+    <Resource Include="images\kapsyler\R9.png" />
+    <Resource Include="images\napkin.png" />
+    <Resource Include="images\frukt\R1.png" />
+    <Resource Include="images\frukt\R10.png" />
+    <Resource Include="images\frukt\R11.png" />
+    <Resource Include="images\frukt\R12.png" />
+    <Resource Include="images\frukt\R13.png" />
+    <Resource Include="images\frukt\R14.png" />
+    <Resource Include="images\frukt\R15.png" />
+    <Resource Include="images\frukt\R16.png" />
+    <Resource Include="images\frukt\R17.png" />
+    <Resource Include="images\frukt\R18.png" />
+    <Resource Include="images\frukt\R19.png" />
+    <Resource Include="images\frukt\R2.png" />
+    <Resource Include="images\frukt\R3.png" />
+    <Resource Include="images\frukt\R4.png" />
+    <Resource Include="images\frukt\R5.png" />
+    <Resource Include="images\frukt\R6.png" />
+    <Resource Include="images\frukt\R7.png" />
+    <Resource Include="images\frukt\R8.png" />
+    <Resource Include="images\frukt\R9.png" />
+    <Content Include="sounds\flipCard.wav" />
+    <Content Include="sounds\GameOver.wav" />
+    <Content Include="sounds\match.wav" />
+    <Content Include="sounds\pop.wav" />
+    <Content Include="sounds\Win.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
