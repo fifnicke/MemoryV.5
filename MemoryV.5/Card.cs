@@ -14,7 +14,7 @@ namespace MemoryV._5
     public class Card: INotifyPropertyChanged
     {
 
-        private readonly BitmapImage frontImage;
+        private readonly BitmapImage frontImage; //test commit
         private readonly BitmapImage backImage;
         private readonly string name;
 
