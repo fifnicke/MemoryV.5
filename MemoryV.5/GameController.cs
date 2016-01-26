@@ -112,7 +112,8 @@ namespace MemoryV._5
             if(!gameCards.Exists(c => c.Status == CardState.Covered))
             {
                 state = GameState.GameOver;
-                MessageBox.Show("Balle");
+                soundController.gameOverSound();
+                MessageBox.Show("Game over!");
             }
         }
         protected virtual void OnGameStart()
