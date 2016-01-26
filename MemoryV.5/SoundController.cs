@@ -10,21 +10,42 @@ namespace MemoryV._5
 {
     public class SoundController
     {
-        private static SoundPlayer flipSound = new SoundPlayer();
-        private static SoundPlayer matchSound = new SoundPlayer();
-        private static SoundPlayer winSound = new SoundPlayer();
-        private static SoundPlayer gameOverSound = new SoundPlayer();
-        private static SoundPlayer popSound = new SoundPlayer();
+        //private static SoundPlayer flipSound = new SoundPlayer();
+        //private static SoundPlayer matchSound = new SoundPlayer();
+        //private static SoundPlayer winSound = new SoundPlayer();
+        //private static SoundPlayer gameOverSound = new SoundPlayer();
+        //private static SoundPlayer popSound = new SoundPlayer();
 
-        private Dictionary<SoundType, SoundPlayer> soundPlayerDic = new Dictionary<SoundType, SoundPlayer>()
+        //private Dictionary<SoundType, SoundPlayer> soundPlayerDic = new Dictionary<SoundType, SoundPlayer>()
+        //{
+        //    {SoundType.Flip, flipSound},
+        //    {SoundType.Match, matchSound},
+        //    {SoundType.Win, winSound},
+        //    {SoundType.GameOver, gameOverSound},
+        //    {SoundType.Pop, popSound},
+        //};
+
+        public void matchSound()
         {
-            {SoundType.Flip, flipSound},
-            {SoundType.Match, matchSound},
-            {SoundType.Win, winSound},
-            {SoundType.GameOver, gameOverSound},
-            {SoundType.Pop, popSound},
-        };
+            SoundPlayer player = new SoundPlayer("../../sounds/match.wav");
+            player.Load();
+            player.Play();
+        }
 
+
+        public void popSound()
+        {
+            SoundPlayer player = new SoundPlayer("../../sounds/pop.wav");
+            player.Load();
+            player.Play();
+        }
+
+        public void flipSound()
+        {
+            SoundPlayer player = new SoundPlayer("../../sounds/flipCard.wav");
+            player.Load();
+            player.Play();
+        }
         public SoundController()
         {
             //flipSound.Stream = Application.GetResourceStream(new Uri("../../sounds/flipCard.wav", UriKind.Relative)).Stream;
@@ -45,7 +66,7 @@ namespace MemoryV._5
 
         public void Play(SoundType soundType)
         {
-            soundPlayerDic[soundType].Play();
+            //soundPlayerDic[soundType].Play();
         }
     }
 }
