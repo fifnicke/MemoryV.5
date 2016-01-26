@@ -46,6 +46,13 @@ namespace MemoryV._5
             player.Load();
             player.Play();
         }
+
+        public void gameOverSound()
+        {
+            SoundPlayer player = new SoundPlayer("../../sounds/GameOver.wav");
+            player.Load();
+            player.Play();
+        }
         public SoundController()
         {
             //flipSound.Stream = Application.GetResourceStream(new Uri("../../sounds/flipCard.wav", UriKind.Relative)).Stream;
