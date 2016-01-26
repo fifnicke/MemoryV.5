@@ -200,6 +200,7 @@ namespace MemoryV._5
             }
 
             FlipCardRectangle(cardRectangle, 0, 1);
+            soundController.flipSound();
         }
         
         protected List<Card> CreateCards()
@@ -226,12 +227,13 @@ namespace MemoryV._5
         {
             Card card = rectangle.DataContext as Card;
             card.Match();
+            soundController.matchSound();
         }
 
         public void StartGame()
         {
             gameGrid.Children.OfType<Rectangle>().ToList().ForEach(rec => rec.DataContext = null);
-            soundController.Play(SoundType.Pop);
+            soundController.popSound();
             List<Card> initialCards = CreateCards();
             gameCards = AssignCardsToGameGrid(gameGrid, initialCards);
             state = GameState.Running;
