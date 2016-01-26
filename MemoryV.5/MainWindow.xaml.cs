@@ -106,6 +106,8 @@ namespace MemoryV._5
             borderPlayer1.DataContext = null;
             borderPlayer2.DataContext = null;
             gameController = new SinglePlayerGameController(gameGrid, gameOptions.SelectedIconSet);
+            if(gameOptions.SelectedIconSet == "frukt")
+                this.Background = new ImageBrush(new BitmapImage(new Uri(@"pack://application:,,,/Images/BasketPattern.png")));
             gameController.StartGame();
         }
 
