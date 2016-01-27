@@ -27,7 +27,7 @@ namespace MemoryV._5
 
         public void matchSound()
         {
-            SoundPlayer player = new SoundPlayer("../../sounds/match.wav");
+            SoundPlayer player = new SoundPlayer(@"pack://application:,,,/sounds/match.wav");
             player.Load();
             player.Play();
         }
@@ -35,21 +35,28 @@ namespace MemoryV._5
 
         public void popSound()
         {
-            SoundPlayer player = new SoundPlayer("../../sounds/pop.wav");
+            SoundPlayer player = new SoundPlayer(@"pack://application:,,,/sounds/pop.wav");
             player.Load();
             player.Play();
         }
 
         public void flipSound()
         {
-            SoundPlayer player = new SoundPlayer("../../sounds/flipCard.wav");
+            SoundPlayer player = new SoundPlayer(@"pack://application:,,,/sounds/flipCard.wav");
             player.Load();
             player.Play();
         }
 
         public void gameOverSound()
         {
-            SoundPlayer player = new SoundPlayer("../../sounds/GameOver.wav");
+            SoundPlayer player = new SoundPlayer(@"pack://application:,,,/sounds/GameOver.wav");
+            player.Load();
+            player.Play();
+        }
+
+        public void winSound()
+        {
+            SoundPlayer player = new SoundPlayer(@"pack://application:,,,/sounds/Win.wav");
             player.Load();
             player.Play();
         }
