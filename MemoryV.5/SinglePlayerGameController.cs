@@ -26,6 +26,7 @@ namespace MemoryV._5
 
         private void StartTimer()
         {
+            
             DoubleAnimation daValueProperty = new DoubleAnimation();
             daValueProperty.From = 200;
             daValueProperty.To = 0;
