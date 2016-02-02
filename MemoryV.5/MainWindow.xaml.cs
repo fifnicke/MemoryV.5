@@ -34,10 +34,14 @@ namespace MemoryV._5
         {
             InitializeComponent();
             this.Loaded += new RoutedEventHandler(MainWindow_Loaded);
+            //Card.MouseEnter += new EventHandler(button1_MouseEnter);
+            //button1.MouseLeave += new EventHandler(button1_MouseLeave);
+
         }
         void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
             gameController = new SinglePlayerGameController(this.gameGrid, gameOptions.SelectedIconSet);
+            
         }
 
         private void rectangleLeftMouseButtonUp(object sender, MouseButtonEventArgs e)

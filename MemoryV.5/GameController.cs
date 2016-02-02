@@ -90,7 +90,7 @@ namespace MemoryV._5
             //Inform
             OnCardPicked(card);
 
-            soundController.Play(SoundType.Flip);
+            soundController.flipSound();
             FlipCard(cardRectangle);
 
             PushCardOnCandidateStack(cardRectangle);
@@ -201,7 +201,7 @@ namespace MemoryV._5
             }
 
             FlipCardRectangle(cardRectangle, 0, 1);
-            soundController.flipSound();
+            
         }
         
         protected List<Card> CreateCards()

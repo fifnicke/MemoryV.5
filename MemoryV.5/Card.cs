@@ -17,6 +17,7 @@ namespace MemoryV._5
         private readonly BitmapImage frontImage; //test commit
         private readonly BitmapImage backImage;
         private readonly string name;
+        
 
         public Card(string name, BitmapImage frontImage, BitmapImage backImage)
         {
@@ -68,6 +69,7 @@ namespace MemoryV._5
         public void Match()
         {
             this.Status = CardState.Matched;
+            
             RaiseNotifyChanged("ActiveImage");
         }
         private void RaiseNotifyChanged(string propertyName)
