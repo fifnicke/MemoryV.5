@@ -18,3 +18,23 @@ C:\Users\Niklas\documents\visual studio 2013\Projects\MemoryV.5\MemoryV.5\obj\De
 C:\Users\Niklas\documents\visual studio 2013\Projects\MemoryV.5\MemoryV.5\obj\Debug\MemoryV.5.csproj.GenerateResource.Cache
 C:\Users\Niklas\documents\visual studio 2013\Projects\MemoryV.5\MemoryV.5\obj\Debug\MemoryV.5.exe
 C:\Users\Niklas\documents\visual studio 2013\Projects\MemoryV.5\MemoryV.5\obj\Debug\MemoryV.5.pdb
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\bin\Debug\MemoryV.5.exe.config
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\MemoryV.5.exe
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\MemoryV.5.pdb
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\bin\Debug\MemoryV.5.exe
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\bin\Debug\MemoryV.5.pdb
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\MemoryV.5.csprojResolveAssemblyReference.cache
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\OptionsWindow.baml
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\ScoreControl.baml
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\MainWindow.g.cs
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\OptionsWindow.g.cs
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\ScoreControl.g.cs
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\App.g.cs
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\MemoryV.5_Content.g.cs
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\MemoryV.5_MarkupCompile.cache
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\MemoryV.5_MarkupCompile.lref
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\MainWindow.baml
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\MemoryV.5.g.resources
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\MemoryV._5.Properties.Resources.resources
+C:\Users\David\Desktop\MemoryV.5\MemoryV.5\obj\Debug\MemoryV.5.csproj.GenerateResource.Cache
